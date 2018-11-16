@@ -16,12 +16,12 @@ namespace CSharp_week_1_deel_2
             
         }
 
+        public void testen() { }
+
         public Boolean CheckAnswer(String response)
         {
             return response.Equals(Answer);
         }
-
-        public void test() { }
 
         public virtual void Display()
         {
