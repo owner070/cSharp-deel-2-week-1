@@ -21,6 +21,8 @@ namespace CSharp_week_1_deel_2
             return response.Equals(Answer);
         }
 
+        public void test() { }
+
         public virtual void Display()
         {
             Console.WriteLine(Text);
